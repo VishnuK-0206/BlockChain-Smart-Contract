@@ -8,6 +8,7 @@
     "build": "tsc",
     "deploy": "npx ts-node ./deploy.ts",
     "deploy-root": "npx ts-node ./deploy-root.ts",
+    "deploy-mutliply":"npx ts-node ./deploy-multiply.ts",
     "clean": "rimraf scrypt.index.json && rimraf dist && rimraf artifacts",
     "compile": "npx scrypt-cli compile",
     "pretest": "npm run build && npm run compile",

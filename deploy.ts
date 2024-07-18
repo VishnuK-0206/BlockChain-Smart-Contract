@@ -7,7 +7,7 @@ async function main() {
     const signer = new NeucronSigner(provider)
     const amount = 1
 
-    await signer.login('sales@timechainlabs.io', 'string')
+    await signer.login('', '')
     await Demo.loadArtifact()
 
     const message = toByteString('timechainlabs', true)
